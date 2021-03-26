@@ -22,10 +22,17 @@ Entre no diretório de onde foi realizado o clone da aplicação e execute os co
 	```
 	> dotnet restore
 	```
-2. Executa o projeto
+2. Navegue até a pasta do projeto
+	```
+	> cd .\Desafio.API\
+	```
+3. Por fim, execute o comando abaixo para rodar projeto
 	```
 	> dotnet run
 	```
+	
+**Observação**: No console ou powershell mostra um número de porta diferente do que esta configurado no projeto. <br />
+Caso isso venha acontencer, então é preciso copiar a url colocar no endereço do seu browser e complementar com _/swagger_ para testar as APIs desenvolvidas. 
 
 ### URL Projeto
 ```
